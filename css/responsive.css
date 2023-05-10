@@ -1,0 +1,38 @@
+/* nav bar */
+@media only screen and (max-width: 900px) {
+    .nav-bar ul li{
+        display: none;
+        max-width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .menu{
+     display: block;
+     color: aliceblue;
+     float: right;
+    }
+    .slideshow-container{
+        width: 80%;
+    }
+    .nav-bar-menu{
+        width: 150px;
+    }
+    .item img{
+        width: 100px;
+    }
+    .name{
+        top: 33px;
+        left: 20px;
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 1050px) {
+     .slideshow-container{
+        width: 95%;
+    }
+}
+
+/* slider */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}

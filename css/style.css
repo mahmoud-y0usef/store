@@ -1,0 +1,163 @@
+body {
+margin: 0px;
+padding: 0px;
+background-color: black;
+}
+
+/* navbar */
+.nav-bar {
+width: 100%;
+background-color: rgb(0, 0, 0);
+height: 60px;
+position: relative;
+
+}
+.nav-bar ul{
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-bar ul li{
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: aliceblue;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.nav-bar ul li a:hover{
+  transition: all 1s linear;
+  color: rgb(194, 142, 75);
+  cursor: pointer;
+}
+.menu{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+a{
+color: azure;
+text-decoration: none;
+}
+
+/* menu */
+.nav-bar-menu{
+  width: 200px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.699);
+  position: absolute;
+  right: 0px;
+  z-index: 99;
+  top: 75px;
+  display: none;
+}
+.nav-bar-menu ul{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.nav-bar-menu ul li{
+  list-style: none;
+  margin-top: 25px;
+  font-size: 20px;
+}
+.nav-bar-menu ul li a:hover{
+  color:rgb(255, 166, 0);
+}
+.nommenu{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100px;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  z-index: 10;
+  position: absolute;
+  padding: 10px;
+  text-align:center ;
+}
+.hidden{
+  display: none;
+}
+
+.cat{
+  position: relative;
+}
+
+/* slider */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* category */
+h3{
+text-align: center;
+margin-top: 60px;
+color: #ffffff;
+}
+.category{
+padding: 20px;
+display: flex;
+flex-flow: row wrap;
+}
+.item{
+display: flex;
+justify-content: start;
+flex-flow: column nowrap;
+position: relative;
+margin-left: 15px;
+margin-top: 15px;
+}
+.item img{
+border-radius: 205% 197% 194% 220%;
+width: 150px;
+}
+.name{
+  position: absolute;
+  top: 56px;
+  left: 50px;
+  color: beige;
+  font-weight: bolder;
+}
