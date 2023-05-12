@@ -15,10 +15,17 @@
     <!-- start navbar -->
     <nav class="nav-bar">
         <ul>
-            <li><a href="#">إتصل بنا</a></li>
-            <li><a href="#">من نحن</a></li>
             <li>
-                <a class="men" href="#">الأقسام</a>
+                <i class="fa-solid fa-headset"></i>
+                <a href="#">إتصل بنا</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-sheet-plastic"></i>
+                <a href="#">من نحن</a>
+            </li>
+            <li>
+                <i onclick="down()" class="fa-sharp fa-solid fa-caret-down down"></i>
+                <a onclick="down()" class="men" href="#">الأقسام</a>
                 <ul  class="cat">
                     <li class="nommenu">
                         <a href="#">Apple</a>
@@ -29,7 +36,15 @@
                     </li>
                 </ul>
             </li>
-            <li><a href="#">الصفحة الرئيسية</a></li>
+            <li>
+                <i class="fa-sharp fa-solid fa-shop"></i>
+                <a href="#">المتجر</a>
+
+            </li>
+            <li>
+                <i class="fa-solid fa-house"></i>
+                <a href="#">الصفحة الرئيسية</a>
+            </li>
         </ul>
         <span onclick="menu()" style="border: none;" class="menu" id="menu"><i class="fa-sharp fa-solid fa-bars"></i></span>
     </nav>
@@ -38,7 +53,18 @@
             <li><a href="#">الصفحة الرئيسية</a></li>
             <li><a href="#">المتجر</a></li>
             <li><a href="#">من نحن</a></li>
-            <li><a href="#">إتصل بنا</a></li>
+            <i onclick="down()" class="fa-sharp fa-solid fa-caret-down down"></i>
+            <a onclick="down()" class="men" href="#">الأقسام</a>
+            <ul  class="cat">
+                <li class="nommenu">
+                    <a href="#">Apple</a>
+                    <div><br></div>
+                    <a href="#">xiaome</a>
+                    <div><br></div>
+                    <a href="#">lenovo</a>
+                </li>
+                <li><a href="#">إتصل بنا</a></li>
+            <ul>
         </ul>
     </nav>
 
@@ -49,8 +75,9 @@
 
         <div class="mySlides fade">
             <div class="numbertext">1 / 1</div>
-            <a href="#"><img src="images/slider/165px.png" style="width:100%"></a>
-            <div class="text">Caption Text</div>
+            <img src="images/slider/165px.png" style="width:100%">
+            <img class="prologo" src="images/products/iphone.png">
+            <div class="text">Iphone 8 plus pro max</div>
         </div>
     </div>
     <br>

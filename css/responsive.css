@@ -1,10 +1,32 @@
 /* nav bar */
-@media only screen and (max-width: 900px) {
+@media  (min-width: 900px) and (max-width: 1050px) {
+    .slideshow-container{
+       width: 95%;
+   }
+   .prologo{
+       width: 150px;
+       top: 0px;
+       left: 150px;
+   }
+   .numbertext{
+       top: 50px;
+       left: 20px;
+   }
+   .text {
+       bottom: 60px;
+       left: -66px;
+       font-size: 15px;
+   }
+}
+@media (min-width: 0px) and (max-width:400px) {
     .nav-bar ul li{
         display: none;
         max-width: 100%;
         padding: 0px;
         margin: 0px;
+    }
+    .nav-bar ul{
+        margin-right: 5px;
     }
     .menu{
      display: block;
@@ -12,10 +34,18 @@
      float: right;
     }
     .slideshow-container{
-        width: 80%;
+        width: 92%;
     }
     .nav-bar-menu{
         width: 150px;
+        position: fixed;
+        right: 10px;
+        height: auto;
+        padding-bottom: 26px;
+    }
+    .nav-bar-menu ul{
+       margin: 0;
+       padding: 0;
     }
     .item img{
         width: 100px;
@@ -25,14 +55,115 @@
         left: 20px;
         font-size: 15px;
     }
-}
-@media only screen and (min-width: 900px) and (max-width: 1050px) {
-     .slideshow-container{
-        width: 95%;
+    .nommenu{
+        position: absolute;
+        right:145px;
+        background-color: rgba(0, 0, 0, 0.699);
+    }
+    ul i{
+        margin-top: 20px;
+        padding: 11px;
+    }
+    .men{
+        font-size: 20px;
+    }
+    .prologo{
+        width: 137px;
+        top: 0px;
+        left: 156px;
+    }
+    .numbertext{
+        top: 26px;
+        left: -16px;
+    }
+    .text {
+        bottom: 65px;
+        left: 20px;
+        font-size: 15px;
+        width: 109px;
     }
 }
 
+@media (min-width: 401px) and (max-width:800px) {
+    .nav-bar ul li{
+        display: none;
+        max-width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .nav-bar ul{
+        margin-right: 5px;
+    }
+    .menu{
+     display: block;
+     color: aliceblue;
+     float: right;
+    }
+    .slideshow-container{
+        width: 92%;
+    }
+    .nav-bar-menu{
+        width: 150px;
+        position: fixed;
+        right: 10px;
+        height: auto;
+        padding-bottom: 26px;
+    }
+    .nav-bar-menu ul{
+       margin: 0;
+       padding: 0;
+    }
+    .item img{
+        width: 100px;
+    }
+    .name{
+        top: 33px;
+        left: 20px;
+        font-size: 15px;
+    }
+    .nommenu{
+        position: absolute;
+        right:145px;
+        background-color: rgba(0, 0, 0, 0.699);
+    }
+    ul i{
+        margin-top: 20px;
+        padding: 11px;
+    }
+    .men{
+        font-size: 20px;
+    }
+    .prologo{
+        width: 169px;
+        top: 19px;
+        left: 258px;
+    }
+    .numbertext{
+        top: 52px;
+        left: -6px;
+    }
+    .text {
+        bottom: 147px;
+        left: 20px;
+        font-size: 15px;
+        width: 205px;
+    }
+}
 /* slider */
-@media only screen and (max-width: 300px) {
+@media (max-width: 350px) {
     .text {font-size: 11px}
+    .prologo{
+        width: 135px;
+        top: 0px;
+        left: 141px;
+    }
+    .numbertext{
+        top: 22px;
+        left: -17px;
+    }
+    .text {
+        bottom: 56px;
+        left: -14px;
+        font-size: 13px;
+    }
 }

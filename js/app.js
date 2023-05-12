@@ -17,13 +17,18 @@ function menu(){
   }
 
 }
-
-
-
-$(".nommenu").hide();
-$(".men").click(function() {
-  $(".nommenu").show();
-})
+$(".nommenu").hide()
+let bol = true;
+function down() {
+  $(".nommenu").toggle()
+  if (bol == true) {
+    $(".down").css("transform" , "rotate(90deg)");
+    bol = false;
+  }else if (bol == false) {
+    $(".down").css("transform" , "rotate(0deg)");
+    bol = true;
+  }
+}
 
 // slider
 let slideIndex = 0;
@@ -45,6 +50,3 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
-
-
-
