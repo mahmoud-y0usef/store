@@ -44,8 +44,8 @@
         padding-bottom: 26px;
     }
     .nav-bar-menu ul{
-       margin: 0;
-       padding: 0;
+        margin: -2px;
+        padding: 0;
     }
     .item img{
         width: 100px;
@@ -59,6 +59,8 @@
         position: absolute;
         right:145px;
         background-color: rgba(0, 0, 0, 0.699);
+        overflow-y: scroll;
+        height: 200px;
     }
     ul i{
         margin-top: 20px;
@@ -110,8 +112,8 @@
         padding-bottom: 26px;
     }
     .nav-bar-menu ul{
-       margin: 0;
-       padding: 0;
+        margin: -2px;
+        padding: 0;
     }
     .item img{
         width: 100px;
@@ -125,6 +127,8 @@
         position: absolute;
         right:145px;
         background-color: rgba(0, 0, 0, 0.699);
+        overflow-y: scroll;
+        height: 200px;
     }
     ul i{
         margin-top: 20px;
@@ -165,5 +169,113 @@
         bottom: 56px;
         left: -14px;
         font-size: 13px;
+    }
+}
+@media (min-width: 700px) and (max-width:780px) {
+    .text {font-size: 11px}
+    .prologo{
+        width: 237px;
+        top: 45px;
+        left: 332px;
+    }
+    .numbertext{
+        top: 66px;
+        left: 0px;
+    }
+    .text {
+        bottom: 181px;
+        left: 83px;
+        font-size: 21px;
+    }
+}
+@media (min-width: 800px) and (max-width:899px) {
+    .text {font-size: 11px}
+    .prologo{
+        width: 237px;
+        top: 45px;
+        left: 332px;
+    }
+    .numbertext{
+        top: 73px;
+        left: 0px;
+    }
+    .text {
+        bottom: 181px;
+        left: 83px;
+        font-size: 21px;
+    }
+}
+@media (min-width: 400px) and (max-width:499px) {
+    .text {font-size: 11px}
+    .prologo{
+        width: 182px;
+        top: -14px;
+        left: 176px;
+    }
+    .numbertext{
+        top: 33px;
+        left: -12px;
+    }
+    .text {
+        bottom: 87px;
+        left: -21px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 200px) and (max-width:299px) {
+    .text {font-size: 11px}
+    .prologo{
+        width: 103px;
+        top: -10px;
+        left: 112px;
+    }
+    .numbertext{
+        top: 14px;
+        left: -18px;
+        font-size: 9px;
+    }
+    .text {
+        bottom: 46px;
+        left: -21px;
+        font-size: 15px;
+    }
+    .nav-bar-menu ul li{
+        list-style: none;
+        margin-top: -20px;
+        font-size: 20px;
+    }
+}
+@media (min-width:820px) {
+    .prologo{
+        width: 164px;
+        top: 91px;
+        left: 437px;
+    }
+    .numbertext{
+        top: 86px;
+        left: 14px;
+        font-size: 16px;
+    }
+    .text {
+        bottom: 240px;
+        left: -176px;
+        font-size: 27px;
+    }
+}
+@media (min-width:1024px) {
+    .prologo{
+        width: 281px;
+        top: 133px;
+        left: 555px;
+    }
+    .numbertext{
+        top: 101px;
+        left: 14px;
+        font-size: 16px;
+    }
+    .text {
+        bottom: 255px;
+        left: -275px;
+        font-size: 31px;
     }
 }

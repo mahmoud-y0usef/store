@@ -53,16 +53,17 @@ text-decoration: none;
   top: 75px;
   display: none;
 }
-.nav-bar-menu ul{
+.nav-bar-menu .scroll{
   color: aliceblue;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  /* overflow-y: scroll; */
 }
 .nav-bar-menu ul li{
   list-style: none;
-  margin-top: 25px;
+  margin-top: 10px;
   font-size: 20px;
 }
 .nav-bar-menu ul li a:hover{
@@ -72,13 +73,36 @@ text-decoration: none;
   display: flex;
   flex-flow: column nowrap;
   width: 100px;
-  height: auto;
+  height: 200px;
   background-color: rgb(0, 0, 0);
   z-index: 10;
   position: absolute;
   padding: 10px;
   text-align:center ;
+  overflow-y: scroll;
+  
 }
+
+.nommenu::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.nommenu::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.nommenu::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.nommenu::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
 .hidden{
   display: none;
 }
