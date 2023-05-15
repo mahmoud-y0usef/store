@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahmoud | Store</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -15,6 +18,7 @@
     <!-- start navbar -->
     <nav class="nav-bar">
         <ul>
+            <li class="namenav">Name Store</li>
             <li>
                 <i class="fa-solid fa-headset"></i>
                 <a href="#">إتصل بنا</a>
@@ -25,8 +29,8 @@
             </li>
             <li>
                 <i onclick="down()" class="fa-sharp fa-solid fa-caret-down down"></i>
-                <a onclick="down()" class="men" href="#">الأقسام</a>
-                <ul  class="cat">
+                <a onclick="down()" class="men">الأقسام</a>
+                <ul class="cat">
                     <li class="nommenu">
                         <a href="#">Offers</a>
                         <div><br></div>
@@ -72,10 +76,12 @@
                 <a href="#">الصفحة الرئيسية</a>
             </li>
         </ul>
-        <span onclick="menu()" style="border: none;" class="menu" id="menu"><i class="fa-sharp fa-solid fa-bars"></i></span>
+        <span onclick="menu()" style="border: none;" class="menu" id="menu"><i
+                class="fa-sharp fa-solid fa-bars"></i></span>
     </nav>
-    <nav  class="nav-bar-menu">
+    <nav class="nav-bar-menu">
         <ul class="scroll">
+            <li class="namenav">Name Store</li>
             <li>
                 <i class="fa-solid fa-house"></i>
                 <a href="#">الصفحة الرئيسية</a>
@@ -89,8 +95,8 @@
                 <a href="#">من نحن</a>
             </li>
             <i onclick="down()" class="fa-sharp fa-solid fa-caret-down down"></i>
-            <a onclick="down()" class="men" href="#">الأقسام</a>
-            <ul  class="cat">
+            <a onclick="down()" class="men">الأقسام</a>
+            <ul class="cat">
                 <li class="nommenu">
                     <a href="#">Offers</a>
                     <div><br></div>
@@ -125,15 +131,29 @@
                     <a href="#">Infinix</a>
                 </li>
                 <ul>
-                <li>
-                    <i class="fa-solid fa-headset"></i>
-                    <a href="#">إتصل بنا</a>
-                </li>
-        </ul>
+                    <li>
+                        <i class="fa-solid fa-headset"></i>
+                        <a href="#">إتصل بنا</a>
+                    </li>
+                </ul>
     </nav>
 
     <!-- end navbar -->
     <br>
+    <!-- start adsense -->
+    <marquee class="marquee" style="width:100%">
+        <span class="ads"><img src="images/ads/acc.gif"> إكسسوارات</span>
+        <span class="ads"><img src="images/ads/acc.gif"> إكسسوارات</span>
+        <span class="ads"><img src="images/ads/acc.gif"> إكسسوارات</span>
+        <span class="ads"><img src="images/ads/acc.gif"> إكسسوارات</span>
+        <span class="ads"><img src="images/ads/acc.gif"> إكسسوارات</span>
+        <span class="ads"><img src="images/ads/acc.gif"> إكسسوارات</span>
+        <span class="ads"><img src="images/ads/acc.gif"> إكسسوارات</span>
+        <span class="ads"><img src="images/ads/acc.gif"> إكسسوارات</span>
+        <span class="ads"><img src="images/ads/acc.gif"> إكسسوارات</span>
+    </marquee>
+    <br>
+    <!-- end adsense -->
     <!-- start slider -->
     <div class="slideshow-container">
 
@@ -161,76 +181,905 @@
     <h3>الأقسام</h3>
     <section class="category">
         <div class="item">
-            <img src="images/category/main.png">
+            <img loading="lazy" src="images/category/main.png">
             <a href="#"><span class="name">Offers</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
+            <img loading="lazy" src="images/category/main.png">
             <a href="#"><span class="name">Apple</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">Samsung</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">Samsung</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">Huawei</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">Huawei</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">Xiaomi</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">Xiaomi</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">OnePlus</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">OnePlus</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">LG</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">LG</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">Sony</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">Sony</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">Motorola</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">Motorola</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">Nokia</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">Nokia</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">HTC</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">HTC</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">BlackBerry</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">BlackBerry</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">Oppo</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">Oppo</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">Vivo</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">Vivo</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">Realme</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">Realme</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">Lenovo</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">Lenovo</span></a>
         </div>
         <div class="item">
-            <img src="images/category/main.png">
-           <a href="#"><span class="name">Infinix</span></a>
+            <img loading="lazy" src="images/category/main.png">
+            <a href="#"><span class="name">Infinix</span></a>
         </div>
     </section>
-    <!-- start category -->
+    <!-- end category -->
+    <!-- start swiper -->
+    <h3>Offers</h3>
+    <br>
+    <section class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <center>
+        <a href="#" class="button more">مشاهدة المزيد</a>
+    </center>
+    <br>
+    <h3>Iphone</h3>
+    <br>
+    <section class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img loading="lazy" src="images/products/iphone.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name">Iphone 8 plus pro max</h2>
+                        <p class="description">The lorem text the section that contains header with having open
+                            functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                        <span class="price">جنيه 200 <span class="del"> 1000 جنيه</span></span>
+                        <span class="discount">10 %</span>
+                        <div class="det">
+                            <a href="#" class="button">مشاهدة التفاصيل</a>
+                            <a href="#" class="button">أضف الي السلة</a>
+                            <i class="fa-regular fa-heart favorit"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <center>
+        <a href="#" class="button more">مشاهدة المزيد</a>
+    </center>
+    <br>
+    <!-- end swiper -->
+    <!-- start footer -->
+    <footer>
+        <div class="main"></div>
+        <div class="footer">
+            <div class="bubbles">
+                <div class="bubble"
+                    style="--size:3.527807755522156rem; --distance:7.667206799963238rem; --position:32.77226087966935%; --time:3.2216435978382005s; --delay:-2.077773275096824s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.094707406397381rem; --distance:8.973476860137456rem; --position:30.534108096364605%; --time:3.15475475712657s; --delay:-3.9490883872141644s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.111121977970944rem; --distance:6.122130024652516rem; --position:27.924129998277138%; --time:2.7062566440212232s; --delay:-3.163621785150146s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.35890536091189rem; --distance:8.08743752458723rem; --position:33.52777655569358%; --time:2.1980242183562964s; --delay:-3.570028122239524s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.4772725414560384rem; --distance:9.663330189952122rem; --position:7.456504069771881%; --time:2.287554459907217s; --delay:-3.2186946010260318s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.512542664987304rem; --distance:7.568327723859234rem; --position:68.79600468513237%; --time:3.45654784661527s; --delay:-3.6683074871740606s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.3941352195289554rem; --distance:7.5291708361988405rem; --position:84.49929386140822%; --time:3.7603998936372465s; --delay:-3.062690191992803s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.3862157797340506rem; --distance:6.964286292024909rem; --position:20.48323518322113%; --time:2.2682252271828296s; --delay:-3.130759128980534s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.047877166374332rem; --distance:6.8368829007079315rem; --position:22.232914483160197%; --time:2.311997455545004s; --delay:-3.825871692247544s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.323758533003999rem; --distance:6.034784315559738rem; --position:53.97010667767248%; --time:3.0295271955092096s; --delay:-2.469650558106339s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.7156303265852193rem; --distance:9.507169696765182rem; --position:68.89990853610868%; --time:3.543412340833638s; --delay:-2.2360163780660716s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.5779139517522065rem; --distance:6.721225866538543rem; --position:30.885690257144716%; --time:2.9907894167066185s; --delay:-3.047109048178858s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.8076461749532324rem; --distance:6.462406785752222rem; --position:4.036084763031692%; --time:3.5772361173194667s; --delay:-3.1392205480543063s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.368224411533112rem; --distance:6.478281186639268rem; --position:19.157385068217152%; --time:3.6976726054341773s; --delay:-2.622984333692582s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.545279003834029rem; --distance:7.598580023442041rem; --position:71.80115559583739%; --time:2.536929392850981s; --delay:-3.3289439966256302s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.011235442192164rem; --distance:9.025612315173653rem; --position:51.26025011547896%; --time:2.410203568451283s; --delay:-3.1229703964872346s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.765605352375209rem; --distance:7.629070563242676rem; --position:18.920921115092774%; --time:3.4991767108885665s; --delay:-2.483250787095343s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.955129144936798rem; --distance:9.230059888698232rem; --position:52.26681155894893%; --time:3.53903235402296s; --delay:-2.170456964901592s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.262244108878594rem; --distance:9.264663617891927rem; --position:38.41116559561656%; --time:2.2762752982491343s; --delay:-2.600382814657043s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.299689763542547rem; --distance:7.429838427264804rem; --position:21.931838477330018%; --time:2.1091586135730247s; --delay:-3.1159388399777854s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.5451732311312965rem; --distance:8.51984527234322rem; --position:3.268416779282539%; --time:2.862578835409916s; --delay:-3.8894196865672965s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.052137309496259rem; --distance:8.918410793483925rem; --position:87.85080485431858%; --time:2.2147353828684113s; --delay:-2.8271645703726778s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.511583600433534rem; --distance:7.3594841330542335rem; --position:64.44394224987023%; --time:2.520034004049131s; --delay:-2.2822212642737916s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.839300429859592rem; --distance:8.61120484528762rem; --position:23.27880959155125%; --time:3.0111528408051162s; --delay:-3.7091570147048945s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.305344477544694rem; --distance:6.138691070832454rem; --position:90.42346356535488%; --time:2.5553618836191045s; --delay:-3.8803392440720743s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.6554220286987276rem; --distance:8.335098408502512rem; --position:8.62689019812418%; --time:2.9438164104152995s; --delay:-3.208480832949405s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.8487594503959635rem; --distance:9.769211347737624rem; --position:78.24912434084287%; --time:3.1703085054473594s; --delay:-3.296068416527308s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.8382005794862435rem; --distance:9.107889336820488rem; --position:26.654054424364052%; --time:2.5515178196862616s; --delay:-2.911391850192349s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.524801767708513rem; --distance:6.450071949424194rem; --position:73.56848716078854%; --time:3.363753561496092s; --delay:-2.4510450679118114s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.391456272871189rem; --distance:6.0275186923457635rem; --position:70.01303444600438%; --time:2.793336103546227s; --delay:-3.3724933608421868s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.026233635231324rem; --distance:9.924762639790206rem; --position:72.46862934259633%; --time:2.2300859262121833s; --delay:-2.4042550572481725s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.699841860739737rem; --distance:7.543144579439123rem; --position:50.48650700028117%; --time:2.6985873529048057s; --delay:-3.138200113529646s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.3809922053009283rem; --distance:8.50374861422215rem; --position:50.063040467317066%; --time:2.862475706720695s; --delay:-3.652561006861975s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.187340479574936rem; --distance:8.080459410996344rem; --position:-1.495069207363522%; --time:2.574906055440134s; --delay:-3.167569835482544s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.731152270332716rem; --distance:7.561743423883628rem; --position:26.32588833854941%; --time:3.859824841006566s; --delay:-2.9513191871132056s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.1085518919328026rem; --distance:6.354371148338366rem; --position:48.27110275675173%; --time:2.9398122030398013s; --delay:-2.6907423397935735s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.5211043385219396rem; --distance:7.49693830123631rem; --position:73.3649893221222%; --time:2.2131304619036705s; --delay:-2.7553395754988155s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.4314518579483835rem; --distance:7.039682138188386rem; --position:86.0829552648756%; --time:3.042076129529047s; --delay:-2.2553781179422034s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.1160034588406766rem; --distance:8.648301986288722rem; --position:9.546285782631232%; --time:3.5022628986545894s; --delay:-3.354218792895003s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.7548010895530854rem; --distance:8.975908167553122rem; --position:20.372319465829364%; --time:3.3948863073709745s; --delay:-3.713147955771404s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.375968429814008rem; --distance:8.088724506860537rem; --position:29.958625206413956%; --time:3.6036122084674287s; --delay:-2.7973177377946765s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.430937858018356rem; --distance:9.999908928555712rem; --position:21.735069609928907%; --time:3.765966448749482s; --delay:-3.18234522211441s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.2425657414873443rem; --distance:8.019823718041213rem; --position:31.125294747537538%; --time:3.26247154623982s; --delay:-2.6945981209957552s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.8653166556111955rem; --distance:8.979355128744622rem; --position:-0.8449980409435076%; --time:2.314433246129654s; --delay:-3.8524088380492554s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.063472647028714rem; --distance:6.968256652600669rem; --position:7.740882709917541%; --time:3.023733052747458s; --delay:-3.9520586500371975s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.47701675505907rem; --distance:8.85206964951167rem; --position:82.62790804090379%; --time:2.7694781116194753s; --delay:-3.1054478035597963s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.4443549875953234rem; --distance:9.513894293318678rem; --position:42.5583413646623%; --time:2.4239033982737728s; --delay:-2.315268859931234s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.1745814667522145rem; --distance:7.695132861480142rem; --position:13.114843760629146%; --time:3.7392071716422492s; --delay:-3.1824103332452722s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.409320630053232rem; --distance:9.616267997973358rem; --position:80.10983204680088%; --time:3.7014136245924165s; --delay:-2.5718201016002444s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.117367311295058rem; --distance:7.003297117582147rem; --position:8.96848790046015%; --time:2.7275679685005367s; --delay:-2.8329913832624434s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.853609957510426rem; --distance:8.027019408014475rem; --position:47.00729114393653%; --time:2.7726692206524524s; --delay:-3.6620356583287736s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.845109940137879rem; --distance:9.712630538621454rem; --position:70.9687961442156%; --time:3.6200355459371196s; --delay:-3.668214717973347s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.480405815729032rem; --distance:8.354287321870018rem; --position:82.03598125242287%; --time:3.126729678458382s; --delay:-2.396759845781882s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.414929614400955rem; --distance:6.541698833785393rem; --position:1.26022172051806%; --time:3.65451145171246s; --delay:-3.5055706779252587s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.430817859036362rem; --distance:7.730838399163444rem; --position:34.303289036862466%; --time:3.5450577591337846s; --delay:-2.9335555823151367s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.468545345825594rem; --distance:9.231941142570374rem; --position:63.69859105211005%; --time:3.8117090974683006s; --delay:-2.404105018586973s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.866696542421695rem; --distance:7.376679831806701rem; --position:47.51498510563574%; --time:2.32915092264539s; --delay:-2.965362350944608s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.709744924426487rem; --distance:8.208457163853275rem; --position:83.41250327289978%; --time:3.7623726436890808s; --delay:-3.1139244164911557s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.087187607919615rem; --distance:8.442062302113811rem; --position:76.8952523924045%; --time:2.642571792831742s; --delay:-2.1279413670142526s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.4745454117763055rem; --distance:8.657105036435246rem; --position:94.034534729122%; --time:2.832427537971421s; --delay:-2.8951356396048373s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.961945365297621rem; --distance:6.457080755876823rem; --position:12.398967591447075%; --time:2.5659209464690895s; --delay:-2.656149912572539s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.526379812949748rem; --distance:6.215640186343814rem; --position:4.241657545599562%; --time:2.812690362600709s; --delay:-3.020230970531624s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.595058575050252rem; --distance:6.96742455924618rem; --position:94.48394965957594%; --time:2.01479169310253s; --delay:-3.416391450148358s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.3679154573716845rem; --distance:9.23555346919336rem; --position:72.47285327462303%; --time:3.4869732307660404s; --delay:-3.0899022832460252s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.6898885256664595rem; --distance:7.537709127757164rem; --position:27.912557270433034%; --time:2.6984926383930206s; --delay:-3.1032232276879936s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.202936456792397rem; --distance:6.281890786723048rem; --position:68.06626859530724%; --time:2.9505290404604505s; --delay:-3.015916185135225s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.6263955006563133rem; --distance:6.9653381553306195rem; --position:53.189989392021005%; --time:3.589839802920602s; --delay:-3.0152704249160376s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.4147992432665495rem; --distance:8.776825150122896rem; --position:74.5766395629271%; --time:2.464819002877966s; --delay:-3.5758188478405297s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.815988672795787rem; --distance:8.28444716282755rem; --position:4.8918105445092905%; --time:2.6150288093203455s; --delay:-3.4430141160577956s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.733458923157138rem; --distance:8.754159521313314rem; --position:11.64309609985563%; --time:3.942264659693742s; --delay:-2.0363566526238683s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.527994926914297rem; --distance:7.835543662456985rem; --position:76.73867979970981%; --time:2.8140553566098236s; --delay:-2.621508741305408s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.4908436403386185rem; --distance:9.876745300313424rem; --position:40.199419991086096%; --time:2.5871655587255225s; --delay:-3.0069891540255176s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.684811771139094rem; --distance:9.864695005830455rem; --position:58.2126568794779%; --time:2.2245696717485943s; --delay:-3.5442929957403373s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.17851856811751rem; --distance:8.743015351315378rem; --position:36.97309819252937%; --time:2.9652003549584713s; --delay:-2.8094216564142807s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.940482914683308rem; --distance:8.435763001966528rem; --position:47.052525376634804%; --time:3.219195549388229s; --delay:-3.925777563610783s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.6308965721532784rem; --distance:9.821013649142026rem; --position:52.29776990928664%; --time:2.0276471249319s; --delay:-3.1686783016413584s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.215251616845005rem; --distance:9.010889814960414rem; --position:83.2285121147683%; --time:3.040100701868502s; --delay:-3.684542804875629s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.706838606870483rem; --distance:6.308131413735265rem; --position:88.81212393406861%; --time:3.4214235507922997s; --delay:-2.403701867959362s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.271362466766498rem; --distance:7.997214609994796rem; --position:48.171583605817794%; --time:2.686401683549606s; --delay:-2.214016011939254s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.332951832503159rem; --distance:7.989861342025992rem; --position:84.69673427410432%; --time:2.35838401524821s; --delay:-2.16923973782813s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.0874861440343455rem; --distance:9.087993304369668rem; --position:22.480953325450415%; --time:3.124049057913504s; --delay:-2.3722049293001106s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.8071897400955335rem; --distance:7.13609758899323rem; --position:13.000642735120461%; --time:3.4696614419091683s; --delay:-3.8294683693308s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.27394272335884rem; --distance:8.9871065701054rem; --position:52.65385149938845%; --time:2.3687989918582604s; --delay:-3.561931951862414s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.884320289372583rem; --distance:7.521318611052315rem; --position:28.64810378750971%; --time:3.1764470874564377s; --delay:-2.239675706684936s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.3850195717245057rem; --distance:9.178671265768633rem; --position:56.94071283168789%; --time:2.408322914546236s; --delay:-2.723426573901258s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.0023222733064188rem; --distance:8.334200162183805rem; --position:94.37897938581243%; --time:3.0097954156061877s; --delay:-2.948018341617407s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.6646197188024106rem; --distance:7.795517625696452rem; --position:77.5724605249969%; --time:2.553942907736794s; --delay:-3.407497930238908s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.8559162691840863rem; --distance:6.552902164966774rem; --position:52.999848596285%; --time:3.320137854630147s; --delay:-3.4608372645367305s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.816204619086725rem; --distance:6.812102193429196rem; --position:19.679129949460396%; --time:3.0765668185010675s; --delay:-3.709535697889263s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.3653197372309016rem; --distance:6.772701138171198rem; --position:64.18500847069066%; --time:3.7970160156985746s; --delay:-2.352789024064436s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.569980828719834rem; --distance:6.6544135225926135rem; --position:94.82515260412848%; --time:2.6333505070148573s; --delay:-2.036721644867443s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.190160083652407rem; --distance:8.910638069496565rem; --position:12.983189955501814%; --time:2.3147467932003125s; --delay:-2.7261000549307495s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.2169309730766127rem; --distance:7.7959877921063185rem; --position:49.842896198927484%; --time:3.247506993813116s; --delay:-2.5083033154816796s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.0689183973526495rem; --distance:6.288296146392405rem; --position:41.661455349951424%; --time:2.940490490330308s; --delay:-2.0651860503784807s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.9896108199321443rem; --distance:7.858662728173035rem; --position:96.57000079406114%; --time:2.2322231597969973s; --delay:-3.48472817225809s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.481042499623757rem; --distance:7.794243011783806rem; --position:8.744150971468992%; --time:2.3308647344295443s; --delay:-3.2191290051312773s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.940118809224224rem; --distance:7.7818743329019595rem; --position:74.16642674832647%; --time:2.336544246544985s; --delay:-2.655589283226095s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.6463758821416263rem; --distance:9.438706721461362rem; --position:14.092452919676209%; --time:3.2547102727950583s; --delay:-3.807366471400109s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.421894842394083rem; --distance:6.227411841700347rem; --position:2.269908764435278%; --time:3.5814065523923864s; --delay:-3.4587927760770407s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.557879245652999rem; --distance:9.09678097318361rem; --position:16.283096358734962%; --time:3.245780327169955s; --delay:-2.0985628686623303s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.795629801256812rem; --distance:8.274940341584976rem; --position:16.948203092561506%; --time:3.2355940906979197s; --delay:-2.8926810915024297s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.0093263033492885rem; --distance:6.02670631451491rem; --position:95.93110845265774%; --time:3.761708269065717s; --delay:-2.400197797116231s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.81477935311861rem; --distance:8.939270725485343rem; --position:10.247801076283862%; --time:2.1731807080062784s; --delay:-2.2644031238795783s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.8947011507110663rem; --distance:6.943551728430639rem; --position:7.4756417133107185%; --time:2.297428614903094s; --delay:-3.8958110303613673s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.882715070196543rem; --distance:9.069609788506146rem; --position:29.53110951813739%; --time:2.0212234469300427s; --delay:-3.0190760647940085s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.6415857854998164rem; --distance:8.782168078133264rem; --position:60.99860294040447%; --time:2.6485515763794063s; --delay:-3.063380303355269s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.165681394788861rem; --distance:6.276889956082853rem; --position:5.469105720828239%; --time:2.5559955377212487s; --delay:-2.118995026032338s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.2512001246389985rem; --distance:8.021480140212208rem; --position:67.8537034256288%; --time:3.2166167976430757s; --delay:-2.7631851020519993s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.9379085415046493rem; --distance:6.999086086227783rem; --position:57.92564899087491%; --time:2.543328978162788s; --delay:-3.5704810908058153s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.221124296374316rem; --distance:8.740022496319519rem; --position:44.90730991170789%; --time:3.496126507380354s; --delay:-2.0845915688816574s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.086106272068207rem; --distance:8.11691607565843rem; --position:22.459244580542258%; --time:3.816697910507749s; --delay:-3.217633080396642s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.8849821313150876rem; --distance:9.474718207677691rem; --position:70.32905269921605%; --time:2.993048204292489s; --delay:-2.671605234634103s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.139274387293611rem; --distance:8.440131720052847rem; --position:93.47902941253079%; --time:3.3558530403232503s; --delay:-3.886324340301645s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.07247810133281rem; --distance:9.997667688947189rem; --position:65.27187892383371%; --time:2.5537429104528906s; --delay:-3.3626030189991125s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.508584633499377rem; --distance:9.734768334565803rem; --position:81.81719391046725%; --time:3.6877701254657254s; --delay:-3.6523107900070535s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.2362572036864057rem; --distance:9.113960912766334rem; --position:43.322521044779585%; --time:3.028087188164259s; --delay:-2.5936590955263514s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.68422467202923rem; --distance:8.725611236465994rem; --position:9.104122349559711%; --time:3.398800668922177s; --delay:-3.4376411846531756s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.774266140982926rem; --distance:9.128754307426494rem; --position:7.721967165687751%; --time:3.086018888879246s; --delay:-2.170458915908918s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.052139337212705rem; --distance:7.287219414301029rem; --position:77.20742791144748%; --time:2.6303881979566284s; --delay:-3.852526667523538s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.386461923048141rem; --distance:7.881265785100387rem; --position:94.8122085561489%; --time:3.1841642928706926s; --delay:-2.5220988365359056s;">
+                </div>
+            </div>
+            <div class="content">
+                    <div>
+                        <span class="namestore">Name Store</span>
+                    </div>
+                    <div class="copy">
+                        <p>©2023 All rights reserved @Name Store</p>
+                    </div>
+                <div class="author"><a class="image" href="https://www.mahmoudyousef.com" target="_blank"
+                        style="width: 20px; height: 20px; background-image: url(images/author/mahmouyousef.png)"></a>
+                </div>
+            </div>
+        </div>
+        <svg style="position:fixed; top:100vh">
+            <defs>
+                <filter id="blob">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                        result="blob"></feColorMatrix>
+                    <!--feComposite(in="SourceGraphic" in2="blob" operator="atop") //After reviewing this after years I can't remember why I added this but it isn't necessary for the blob effect-->
+                </filter>
+            </defs>
+        </svg>
+    </footer>
+    <!-- end footer -->
 </body>
+<script src="js/marquee.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
 <script src="js/jquery-3.6.1.min.js"></script>
 <script src="js/app.js"></script>
+
 </html>

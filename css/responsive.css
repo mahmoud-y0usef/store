@@ -50,7 +50,7 @@
     .item img{
         width: 100px;
     }
-    .name{
+   a .name{
         top: 33px;
         left: 20px;
         font-size: 15px;
@@ -61,6 +61,7 @@
         background-color: rgba(0, 0, 0, 0.699);
         overflow-y: scroll;
         height: 200px;
+        top:-135px;
     }
     ul i{
         margin-top: 20px;
@@ -84,6 +85,16 @@
         font-size: 15px;
         width: 109px;
     }
+    .author{
+        top: -129px;
+        right: 13px;
+    }
+    .copy{
+        bottom: 13px;
+        width: 219px;
+        left: 55px;
+    }
+   
 }
 
 @media (min-width: 401px) and (max-width:800px) {
@@ -118,7 +129,7 @@
     .item img{
         width: 100px;
     }
-    .name{
+    a .name{
         top: 33px;
         left: 20px;
         font-size: 15px;
@@ -170,6 +181,7 @@
         left: -14px;
         font-size: 13px;
     }
+    
 }
 @media (min-width: 700px) and (max-width:780px) {
     .text {font-size: 11px}
@@ -279,3 +291,11 @@
         font-size: 31px;
     }
 }
+@media screen and (max-width: 768px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
+  }
